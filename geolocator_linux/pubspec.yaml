@@ -31,4 +31,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mockito: ^5.0.0-nullsafety.7
-  plugin_platform_interface: ^2.1.2
+  plugin_platform_interface: ^1.0.1

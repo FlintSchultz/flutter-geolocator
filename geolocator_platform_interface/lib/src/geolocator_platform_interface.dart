@@ -33,7 +33,7 @@ abstract class GeolocatorPlatform extends PlatformInterface {
   /// platform-specific class that extends [GeolocatorPlatform] when they
   /// register themselves.
   static set instance(GeolocatorPlatform instance) {
-    PlatformInterface.verify(instance, _token);
+    PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }
 
